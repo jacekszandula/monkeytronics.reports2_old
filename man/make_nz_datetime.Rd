@@ -7,8 +7,11 @@
 make_nz_datetime(timestamp)
 }
 \arguments{
-\item{timestamp}{a time stamp}
+\item{timestamp}{a Unix Timestamp}
 }
 \description{
 convert a time stamp into a NZ timezone datetime
+}
+\examples{
+make_nz_datetime(1555555555)
 }

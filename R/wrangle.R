@@ -1,7 +1,9 @@
 #' make_nz_datetime
 #' @description convert a time stamp into a NZ timezone datetime
-#' @param timestamp a time stamp
+#' @param timestamp a Unix Timestamp
 #' @export
+#' @examples
+#' make_nz_datetime(1555555555)
 make_nz_datetime <- function(timestamp) {
   checkmate::assert_numeric(timestamp)
   timestamp %>%

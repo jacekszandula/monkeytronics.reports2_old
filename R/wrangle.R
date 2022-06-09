@@ -1,6 +1,7 @@
-#' make_nz_datetime
-#' @description convert a time stamp into a NZ timezone datetime
-#' @param timestamp a Unix Timestamp
+#' Unix timestamp to NZ timezone datetime
+#' @description Convert a time stamp into a NZ timezone datetime
+#' @param timestamp vector of Unix time stamps
+#' @return Returns "POSIXct", "POSIXt" vector in NZ time zone
 #' @export
 #' @examples
 #' make_nz_datetime(1555555555)

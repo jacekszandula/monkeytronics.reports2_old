@@ -2,15 +2,18 @@
 % Please edit documentation in R/wrangle.R
 \name{make_nz_datetime}
 \alias{make_nz_datetime}
-\title{make_nz_datetime}
+\title{Unix timestamp to NZ timezone datetime}
 \usage{
 make_nz_datetime(timestamp)
 }
 \arguments{
-\item{timestamp}{a Unix Timestamp}
+\item{timestamp}{vector of Unix time stamps}
+}
+\value{
+Returns "POSIXct", "POSIXt" vector in NZ time zone
 }
 \description{
-convert a time stamp into a NZ timezone datetime
+Convert a time stamp into a NZ timezone datetime
 }
 \examples{
 make_nz_datetime(1555555555)

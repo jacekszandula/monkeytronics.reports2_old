@@ -8,5 +8,36 @@ Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
+LazyData: true
+Imports: 
+    aws.s3 (>= 0.3.21),
+    checkmate,
+    data.table,
+    dplyr,
+    extrafont,
+    flexdashboard,
+    forcats,
+    formattable,
+    ggnewscale,
+    ggplot2,
+    ggpmisc,
+    hrbrthemes,
+    janitor,
+    kableExtra,
+    knitr,
+    lubridate,
+    magrittr,
+    nord,
+    paws,
+    pixiedust,
+    plotly,
+    purrr,
+    readr,
+    rlang,
+    stringi,
+    tidyr,
+    unikn
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0

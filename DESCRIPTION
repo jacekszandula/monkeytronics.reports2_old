@@ -3,8 +3,8 @@ Title: Flexdashboards For Monkeytronics
 Version: 0.0.0.9000
 Authors@R: 
     person("Jacek", "Szanduła", , "jacek.szandula@gmail.com", role = c("aut", "cre"))
-Description: The goal of `{monkeytronics.reports}` is to package the
-code for producing flexdashboards for Monkeytronics.
+Description: 
+	The goal of {monkeytronics.reports} is to package the code for producing flexdashboards for Monkeytronics
 License: `use_mit_license()`
 Imports: 
     aws.s3 (>= 0.3.21),
@@ -35,7 +35,8 @@ Imports:
     tidyr,
     unikn
 Suggests: 
-	knitr, rmarkdown
+	knitr, 
+	rmarkdown
 VignetteBuilder: 
 	knitr
 Encoding: UTF-8

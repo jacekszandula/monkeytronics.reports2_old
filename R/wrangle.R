@@ -12,9 +12,12 @@ make_nz_datetime <- function(timestamp) {
     lubridate::with_tz(tz = "Pacific/Auckland")
 }
 
-#' report_period
-#' @description Print a formatted from-to sentence
+#' Print a formatted from-to sentence
+#' @description Takes 2 time stapms and prints a formatted from-to sentence. Doesn't check if the 2nd timestamp is greater than the 1st one.
 #' @param from_timetamp,to_timestamp timestamps for the begin and end of the report
+#' @return Character
+#' @examples
+#' report_period(1555555555, 1666666666)
 #' @export
 report_period <- function(from_timestamp, to_timestamp) {
 

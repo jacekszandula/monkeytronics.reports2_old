@@ -1,14 +1,16 @@
-#' test_params
-#' @description wrapper to get test params easily
+#' Monkeytronics default parameters
+#' @description Returns a list with links to the stored dataets
+#' @return list with default settings
+#' @example test_params()
 #' @export
 test_params <- function() {
   list(
-    filtered_obs = "inst/data/filtered_obs.csv",
-    filtered_weather = "inst/data/filtered_weather.csv",
-    filtered_devices = "inst/data/filtered_devices.csv",
-    filtered_interventions = "inst/data/filtered_interventions.csv",
+    filtered_obs = "data/obs.csv",
+    filtered_weather = "data/weather.csv",
+    filtered_devices = "data/dev.csv",
+    filtered_interventions = "data/interv.csv",
     report_params = "-",
-    fromTimeStamp = 1627639151,
-    toTimeStamp = 1630317551
+    fromTimeStamp = 1627000000,
+    toTimeStamp = 1654000000
   )
 }
